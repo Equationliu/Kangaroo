@@ -1,4 +1,4 @@
-<img src="imgs/logo.png" alt="Kangaroo" width="120" align="left"><div align="center"><h1>&nbsp;Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting</h1></div>
+<img src="imgs/logo.png" alt="Kangaroo" width="100" align="left"><div align="center"><h1>&nbsp;Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting</h1></div>
 
 <p align="center">
 | <a href="https://arxiv.org/abs/2404.18911"><b>Arxiv Paper</b></a> |
