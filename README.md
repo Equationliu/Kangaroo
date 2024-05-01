@@ -30,9 +30,9 @@ unnecessary costs on more difficult tokens.
 
 #### TODO List
 - [X] infernce code & ckpts of Kangaroo.
-- [] code for training Kangaroo.
-- [] bsz > 1 and decoding with sampling.
-- [] tree verification.
+- [ ] code for training Kangaroo.
+- [ ] bsz > 1 and decoding with sampling.
+- [ ] tree verification.
 
 #### Inference
 
