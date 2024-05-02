@@ -52,6 +52,18 @@ To get the detailed speed information, run ``python evaluation/speed.py``.
 The corresponding huggingface ckpt of kangaroo can be downloaded at [Kangaroo Google Drive](https://drive.google.com/drive/folders/1_lSqhasWeIUyfCft50JtKuQ2-TWepm8p?usp=sharing).
 
 
+#### Citation
+
+```
+@article{liu2024kangaroo,
+  title={Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting},
+  author={Liu, Fangcheng and Tang, Yehui and Liu, Zhenhua and Ni, Yunsheng and Han, Kai and Wang, Yunhe},
+  journal={arXiv preprint arXiv:2404.18911},
+  year={2024}
+}
+```
+
+
 
 ## Acknowledgements
 
