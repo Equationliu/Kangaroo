@@ -29,7 +29,7 @@ unnecessary costs on more difficult tokens.
 
 
 #### TODO List
-- [X] infernce code & ckpts of Kangaroo.
+- [X] inference code & checkpoints of Kangaroo.
 - [X] code for training Kangaroo.
 - [ ] tree verification.
 - [ ] bsz > 1 and decoding with sampling.
@@ -68,7 +68,7 @@ CUDA_VISIBLE_DEVICES=0 python -m evaluation.inference_kangaroo --adapter-path "/
 
 To get the detailed speed information, run ``python evaluation/speed.py``.
 
-The corresponding huggingface ckpt of kangaroo can be downloaded at [Kangaroo Google Drive](https://drive.google.com/drive/folders/1_lSqhasWeIUyfCft50JtKuQ2-TWepm8p?usp=sharing).
+The corresponding huggingface ckpts of kangaroo can be downloaded at [Kangaroo Google Drive](https://drive.google.com/drive/folders/1_lSqhasWeIUyfCft50JtKuQ2-TWepm8p?usp=sharing).
 
 
 #### Citation
