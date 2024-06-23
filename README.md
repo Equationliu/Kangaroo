@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="">
-    <img src="https://img.shields.io/badge/Version-v0.0.0-orange.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-v0.0.1-orange.svg" alt="Version">
   </a>
   <a href="https://github.com/SafeAILab/EAGLE/pulls">
     <img src="https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome">
@@ -30,9 +30,28 @@ unnecessary costs on more difficult tokens.
 
 #### TODO List
 - [X] infernce code & ckpts of Kangaroo.
-- [ ] code for training Kangaroo.
-- [ ] bsz > 1 and decoding with sampling.
+- [X] code for training Kangaroo.
 - [ ] tree verification.
+- [ ] bsz > 1 and decoding with sampling.
+
+#### Training
+
+We follow the training procedure of [Medusa](https://github.com/FasterDecoding/Medusa#medusa-simple-framework-for-accelerating-llm-generation-with-multiple-decoding-heads) and [Eagle](https://github.com/SafeAILab/EAGLE?tab=readme-ov-file).
+
+
+1. data preprocess
+
+```python
+cd data
+python allocation.py --outdir /home/ma-user/work/Data/
+```
+
+2. training
+
+```
+python start_train.py
+```
+
 
 #### Inference
 
@@ -67,7 +86,10 @@ The corresponding huggingface ckpt of kangaroo can be downloaded at [Kangaroo Go
 
 ## Acknowledgements
 
-We acknowledge the authors of [Spec-Bench](https://github.com/hemingkx/Spec-Bench/tree/main) for the awesome benchmark.
+We acknowledge the authors of 
+
+* [Spec-Bench](https://github.com/hemingkx/Spec-Bench/tree/main) for the awesome benchmark.
+* [Medusa](https://github.com/FasterDecoding/Medusa#medusa-simple-framework-for-accelerating-llm-generation-with-multiple-decoding-heads) and [Eagle](https://github.com/SafeAILab/EAGLE?tab=readme-ov-file) for pioneer work.
 
 
 ### License
